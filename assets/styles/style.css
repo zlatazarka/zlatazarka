@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=Imperial+Script&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    text-decoration: none;
+    padding: 0;
+    font-family: "Lora";
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 1100px;
+    background-image: url(../img/хэдер.png);
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    width: 1200px;
+    height: 110px;
+    background-color: #79553C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links .row .col{
+    width: 230px;
+    text-align: center;
+}
+.links .row .col a{
+    text-align: center;
+    font-family: "IM Fell Great Primer SC";
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: 0.1s;
+}
+.links .row .col a:hover{
+    transition: 0.25s;
+    color: #443123;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 990px;
+}
+
+header .container .row .col-12:nth-child(1){
+    font-family: "IM Fell Great Primer SC";
+    color: white;
+    font-size: 120px;
+    text-align: center;
+}
+
+header .container .row button{
+    text-decoration: none;
+    background: none;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+header .container .row .col-12:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 235px;
+}
